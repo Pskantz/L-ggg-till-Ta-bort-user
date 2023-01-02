@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+.AddUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    h1 {
+        font: 400 2.5rem 'Roboto', sans-serif;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+
+      
+      
+        button {
+            width: 80%;
+            height: 50px;
+            margin: 10px;
+        }
+    }
+}
+
+.Users {
+    display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+    height: 100vh;
+  
+    
+    p {
+        color: rgb(74, 74, 74);
+      font-size: 1.0rem;
+        font-weight: 450;
+        background-color: rgb(241, 239, 239);
+        padding: 10px;
+        margin: 5px;
+        box-shadow: inset 0 0 5px rgb(32, 32, 32);
+        border-radius: 5px;
+        transition: 0.2s;
+
+   
+    }
+   
+  
+    img {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        margin: 5px;
+       border : 2px solid rgb(28, 28, 28);
+        object-fit: cover;
+        
+
+    }
+    span {
+        font-size: 1.0rem;
+        font-weight: 550;
+        color: rgb(3, 3, 3);
+    }
+    button {
+        position : absolute;
+        right: 30px;
+    }
+}
